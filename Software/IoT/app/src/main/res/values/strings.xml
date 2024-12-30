@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IoT</string>
+    <string name="name_room_1">Thông số phòng 1</string>
+    <string name="hello">Hello!</string>
+    <string name="big_title">SmartAlert Hub</string>
+    <string name="title">Trung tâm cảnh báo thông minh</string>
+    <string name="date">date show</string>
+    <string name="room_1">Phòng 1</string>
+    <string name="room_2">Phòng 2</string>
+    <string name="name_room_2">Thông số phòng 2</string>
+    <string name="todo">TODO</string>
+    <string name="image_button">Back</string>
+    <string name="glass_morphism">glass</string>
+    <string name="temp">Nhiệt độ</string>
+    <string name="hum">Độ ẩm</string>
+    <string name="CO_gas">Khí CO</string>
+    <string name="flame" >Cảm biến lửa</string>
+    <string name="temp_value">21.7°C</string>
+    <string name="humi_value">64.51%</string>
+    <string name="flame_status">An toàn</string>
+    <string name="CO_status">An toàn</string>
+    <string name="UTC">TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI</string>
+    <string name="UTC_e">UNIVERSITY OF TRANSPORT AND COMMUNICATION</string>
+</resources>

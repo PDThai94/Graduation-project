@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Gateway_PCB.PcbDoc   04/12/2024  12:00:59 SA
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Gateway_PCB-RoundHoles.TXT
+ASCII SlotHoles File : Gateway_PCB-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      32mil (0.8mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T2      32mil (0.813mm)                                           Round             12        PTH        0.00inch (0.00mm)
+T3      35mil (0.899mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T4      39mil (1.001mm)                                           Round             8         PTH        0.00inch (0.00mm)
+T5      39mil (1.001mm)                                           Slot              3         PTH        0.00inch (0.00mm)
+T6      41mil (1.039mm)                                           Round             38        PTH        0.00inch (0.00mm)
+T7      50mil (1.27mm)                                            Slot              3         PTH        0.00inch (0.00mm)
+T8      79mil (2.009mm)                                           Round             8         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              80
+
+Total Processing Time (hh:mm:ss) : 00:00:00

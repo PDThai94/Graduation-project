@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=GND Pin=MOD1-2
+Added Room: Name=fire_warning

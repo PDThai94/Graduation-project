@@ -1,0 +1,14 @@
+Added Member To Class: ClassName=fire_warning Member=Component D2 1N4007
+Added Member To Class: ClassName=fire_warning Member=Component J2 KF3
+Added Member To Class: ClassName=fire_warning Member=Component J3 KF3
+Added Member To Class: ClassName=fire_warning Member=Component LED1 RED
+Added Member To Class: ClassName=fire_warning Member=Component LED2 Green
+Added Member To Class: ClassName=fire_warning Member=Component Q1 2N3906
+Added Member To Class: ClassName=fire_warning Member=Component Q2 2N3906
+Added Member To Class: ClassName=fire_warning Member=Component R1 1K
+Added Member To Class: ClassName=fire_warning Member=Component R2 1K
+Added Member To Class: ClassName=fire_warning Member=Component R3 1K
+Added Member To Class: ClassName=fire_warning Member=Component R4 1K
+Added Member To Class: ClassName=fire_warning Member=Component R5 1K
+Added Member To Class: ClassName=fire_warning Member=Component R6 1K
+Added Member To Class: ClassName=fire_warning Member=Component RL2 Relay 10A/12V

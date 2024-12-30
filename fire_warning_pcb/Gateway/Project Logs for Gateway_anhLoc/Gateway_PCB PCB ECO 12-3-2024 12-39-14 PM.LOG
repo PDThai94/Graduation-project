@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BUZZ1 Pin=MOD1-27
+Removed Pin From Net: NetName=BUZZ2 Pin=MOD1-28
+Added Pin To Net: NetName=BUZZ1 Pin=MOD1-5
+Added Pin To Net: NetName=BUZZ2 Pin=MOD1-6

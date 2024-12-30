@@ -1,0 +1,61 @@
+#Library sensor Arduino 
+
+	- Adafruit Unified Sensor
+	- Adafruit bme280
+
+#Board MAC Address
+	- Slave:    e8:6b:ea:c9:b7:34
+	- Master_1: e4:65:b8:58:2e:d0
+	- Master_2: d4:8a:fc:5f:87:c8
+
+
+{
+  "rules": {
+    ".read": "auth != null",  // Chỉ cho phép đọc khi đã xác thực
+    ".write": "auth != null", // Chỉ cho phép ghi khi đã xác thực
+    "Node_1": {
+      "temperature": {
+        ".validate": "newData.isNumber() && newData.val() >= -50 && newData.val() <= 100"
+      },
+      "humidity": {
+        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 100"
+      },
+      "flame": {
+        ".validate": "newData.isBoolean()"
+      },
+      "CO": {
+        ".validate": "newData.isBoolean()"
+      }
+    },
+    "Node_2": {
+      "temperature": {
+        ".validate": "newData.isNumber() && newData.val() >= -50 && newData.val() <= 100"
+      },
+      "humidity": {
+        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 100"
+      },
+      "flame": {
+        ".validate": "newData.isBoolean()"
+      },
+      "CO": {
+        ".validate": "newData.isBoolean()"
+      }
+    },
+    "$node": {
+      // Quy tắc động cho các Node khác (Node_3, Node_4,...)
+      ".validate": "root.child($node).exists()",
+      "temperature": {
+        ".validate": "newData.isNumber() && newData.val() >= -50 && newData.val() <= 100"
+      },
+      "humidity": {
+        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 100"
+      },
+      "flame": {
+        ".validate": "newData.isBoolean()"
+      },
+      "CO": {
+        ".validate": "newData.isBoolean()"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=BME_I2C_SCL Pin=U1-22
+Removed Pin From Net: NetName=BME_I2C_SDA Pin=U1-25
+Added Pin To Net: NetName=BME_I2C_SDA Pin=U1-22
+Added Pin To Net: NetName=BME_I2C_SCL Pin=U1-25
+Added Room: Name=fire_warning

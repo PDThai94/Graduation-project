@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IR_D0 Pin=U1-15
+Added Pin To Net: NetName=IR_D0 Pin=U1-33
+Added Member To Class: ClassName=fire_warning Member=Component RL1 Module Relay 2 channel
+Added Room: Name=fire_warning

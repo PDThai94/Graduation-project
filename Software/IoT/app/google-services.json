@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1005595669877",
+    "firebase_url": "https://fire-warning-77a6d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fire-warning-77a6d",
+    "storage_bucket": "fire-warning-77a6d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005595669877:android:07834c448a1eb988384f3c",
+        "android_client_info": {
+          "package_name": "com.example.iot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA16TMM7n0h6G_KHQ_fuTfWzGVF9I0Zxlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

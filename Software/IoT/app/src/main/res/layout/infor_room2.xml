@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".infor_room2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/logo_dai_hoc_giao_thong_van_tai_inkythuatso"/>
+            <TextView
+                android:id="@+id/UTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/utc_E"
+                android:layout_toEndOf="@+id/logo"
+                android:textSize="12sp"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/black"
+                android:text="@string/UTC"/>
+            <TextView
+                android:id="@+id/utc_E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/logo"
+                android:textSize="10sp"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/black"
+                android:text="@string/UTC_e"
+                tools:ignore="SmallSp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/title_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:background="@drawable/home_background">
+
+            <ImageButton
+                android:id="@+id/back_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_icon"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/image_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/name_room_2"
+                android:fontFamily="@font/lato_medium"
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="3dp">
+
+            <GridLayout
+                android:id="@+id/info_sensor_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/backgroud"
+                android:padding="6dp"
+                android:rowCount="2"
+                android:columnCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/temperature_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:elevation="5dp"
+                    android:layout_margin="6dp"
+                    app:cardCornerRadius="19dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/temp"
+                            android:src="@drawable/temp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.5"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="@string/temp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                        <TextView
+                            android:id="@+id/temp_show_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.5"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="@string/temp_value"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/humidity_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_gravity="fill"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardCornerRadius="19dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="6dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:src="@drawable/humidity"
+                            android:contentDescription="@string/hum"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/hum"
+                            android:fontFamily="@font/lato_medium"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:id="@+id/humi_show_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/humi_value"
+                            android:fontFamily="@font/lato_medium"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:layout_weight="0.5"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/flame_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="19dp"
+                    android:layout_margin="6dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:src="@drawable/flame"
+                            android:contentDescription="@string/flame"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="@string/flame"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"/>
+                        <TextView
+                            android:id="@+id/flame_show_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:fontFamily="@font/lato_medium"
+                            android:text="@string/flame_status"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/CO_gas_2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_gravity="fill"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_margin="6dp"
+                    app:cardCornerRadius="19dp"
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="10dp"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:src="@drawable/co_gas"
+                            android:contentDescription="@string/CO_gas"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/CO_gas"
+                            android:fontFamily="@font/lato_medium"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:layout_weight="0.5"/>
+                        <TextView
+                            android:id="@+id/CO_gas_show_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/CO_status"
+                            android:fontFamily="@font/lato_medium"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:layout_weight="0.5"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

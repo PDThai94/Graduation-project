@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+12V Pin=CON1-2
+Added Pin To Net: NetName=GND Pin=CON1-2
+Added Room: Name=fire_warning

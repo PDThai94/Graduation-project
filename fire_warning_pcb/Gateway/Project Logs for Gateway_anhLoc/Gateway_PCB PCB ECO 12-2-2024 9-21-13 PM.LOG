@@ -1,0 +1,196 @@
+Added Component: Designator=B1(Coi Chip)
+Added Component: Designator=B2(Coi Chip)
+Added Component: Designator=J1(OLED 0.96'' 128x64)
+Add component (AddParameter): Name = "Alternate Part Number-1"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "TH-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "22-10-2061"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "SP ROAD"; VariantName = "[No Variations]"
+Added Component: Designator=J2(OLED 0.96'' 128x64)
+Add component (AddParameter): Name = "Alternate Part Number-1"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "TH-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "22-10-2061"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "SP ROAD"; VariantName = "[No Variations]"
+Added Component: Designator=JDC1(DC-IN)
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=L1(LED-5MM-Green)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH008969"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED 5MM Ph? Xanh (1000c)"; VariantName = "[No Variations]"
+Added Component: Designator=L2(LED-5MM-Yellow)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH008968"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Led 5MM Ph? Vàng (1000c)"; VariantName = "[No Variations]"
+Added Component: Designator=L3(LED-5MM-RED)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH008967"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Led 5MM Ph? Ð? (1000c)"; VariantName = "[No Variations]"
+Added Component: Designator=L4(LED-5MM-Green)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH008969"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED 5MM Ph? Xanh (1000c)"; VariantName = "[No Variations]"
+Added Component: Designator=L5(LED-5MM-Yellow)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH008968"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Led 5MM Ph? Vàng (1000c)"; VariantName = "[No Variations]"
+Added Component: Designator=L6(LED-5MM-RED)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH008967"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Led 5MM Ph? Ð? (1000c)"; VariantName = "[No Variations]"
+Added Component: Designator=MOD1(ESP32S MODULE 38 PIN)
+Added Component: Designator=MOD2(Module DC-DC Buck Converter LM2596)
+Added Component: Designator=Q1(SOT 23-3)
+Add component (AddParameter): Name = "Alternate Part Number-1"; Value = "PMV50ENEAR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "International Rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "AO3404A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "AO3404A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "ARROW"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(SOT 23-3)
+Add component (AddParameter): Name = "Alternate Part Number-1"; Value = "PMV50ENEAR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOT23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "International Rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "AO3404A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number-1"; Value = "AO3404A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier-1"; Value = "ARROW"; VariantName = "[No Variations]"
+Added Component: Designator=R1(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R3(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R4(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R5(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R6(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R7(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R8(R_0805_H0.43)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(TOGGLE SWITCH MTS-103)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Apem"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_PART#"; Value = "MHSS1105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "PARAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.5$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "SlideSwitch"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=J1-2
+Added Pin To Net: NetName=+3V3 Pin=J2-2
+Added Pin To Net: NetName=+3V3 Pin=MOD1-1
+Added Pin To Net: NetName=+3V3 Pin=R1-1
+Added Pin To Net: NetName=+3V3 Pin=R2-1
+Added Pin To Net: NetName=+3V3 Pin=R3-1
+Added Pin To Net: NetName=+3V3 Pin=R4-1
+Added Pin To Net: NetName=+3V3 Pin=R5-1
+Added Pin To Net: NetName=+3V3 Pin=R6-1
+Added Net: Name=+3V3
+Added Pin To Net: NetName=+5V Pin=B1-1
+Added Pin To Net: NetName=+5V Pin=B2-1
+Added Pin To Net: NetName=+5V Pin=MOD1-19
+Added Pin To Net: NetName=+5V Pin=SW1-3
+Added Net: Name=+5V
+Added Pin To Net: NetName=BUZZ1 Pin=MOD1-27
+Added Pin To Net: NetName=BUZZ1 Pin=R7-1
+Added Net: Name=BUZZ1
+Added Pin To Net: NetName=BUZZ2 Pin=MOD1-28
+Added Pin To Net: NetName=BUZZ2 Pin=R8-1
+Added Net: Name=BUZZ2
+Added Pin To Net: NetName=DC COM Pin=MOD2-3
+Added Pin To Net: NetName=DC COM Pin=SW1-2
+Added Net: Name=DC COM
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=GND Pin=MOD1-14
+Added Pin To Net: NetName=GND Pin=MOD1-20
+Added Pin To Net: NetName=GND Pin=MOD1-26
+Added Pin To Net: NetName=GND Pin=MOD2-2
+Added Pin To Net: NetName=GND Pin=MOD2-4
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Net: Name=GND
+Added Pin To Net: NetName=LG1 Pin=L1-2
+Added Pin To Net: NetName=LG1 Pin=MOD1-29
+Added Net: Name=LG1
+Added Pin To Net: NetName=LG2 Pin=L4-2
+Added Pin To Net: NetName=LG2 Pin=MOD1-32
+Added Net: Name=LG2
+Added Pin To Net: NetName=LR1 Pin=L3-2
+Added Pin To Net: NetName=LR1 Pin=MOD1-31
+Added Net: Name=LR1
+Added Pin To Net: NetName=LR2 Pin=L6-2
+Added Pin To Net: NetName=LR2 Pin=MOD1-34
+Added Net: Name=LR2
+Added Pin To Net: NetName=LY1 Pin=L2-2
+Added Pin To Net: NetName=LY1 Pin=MOD1-30
+Added Net: Name=LY1
+Added Pin To Net: NetName=LY2 Pin=L5-2
+Added Pin To Net: NetName=LY2 Pin=MOD1-33
+Added Net: Name=LY2
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_2 Pin=Q1-3
+Added Net: Name=NetB1_2
+Added Pin To Net: NetName=NetB2_2 Pin=B2-2
+Added Pin To Net: NetName=NetB2_2 Pin=Q2-3
+Added Net: Name=NetB2_2
+Added Pin To Net: NetName=NetJDC1_1 Pin=JDC1-1
+Added Pin To Net: NetName=NetJDC1_1 Pin=MOD2-1
+Added Net: Name=NetJDC1_1
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=R1-2
+Added Net: Name=NetL1_1
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=R2-2
+Added Net: Name=NetL2_1
+Added Pin To Net: NetName=NetL3_1 Pin=L3-1
+Added Pin To Net: NetName=NetL3_1 Pin=R3-2
+Added Net: Name=NetL3_1
+Added Pin To Net: NetName=NetL4_1 Pin=L4-1
+Added Pin To Net: NetName=NetL4_1 Pin=R4-2
+Added Net: Name=NetL4_1
+Added Pin To Net: NetName=NetL5_1 Pin=L5-1
+Added Pin To Net: NetName=NetL5_1 Pin=R5-2
+Added Net: Name=NetL5_1
+Added Pin To Net: NetName=NetL6_1 Pin=L6-1
+Added Pin To Net: NetName=NetL6_1 Pin=R6-2
+Added Net: Name=NetL6_1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R7-2
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R8-2
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=OLED_SCL Pin=J1-3
+Added Pin To Net: NetName=OLED_SCL Pin=J2-3
+Added Pin To Net: NetName=OLED_SCL Pin=MOD1-25
+Added Net: Name=OLED_SCL
+Added Pin To Net: NetName=OLED_SDA Pin=J1-4
+Added Pin To Net: NetName=OLED_SDA Pin=J2-4
+Added Pin To Net: NetName=OLED_SDA Pin=MOD1-22
+Added Net: Name=OLED_SDA
+Added Class: Name=Gateway_SCH

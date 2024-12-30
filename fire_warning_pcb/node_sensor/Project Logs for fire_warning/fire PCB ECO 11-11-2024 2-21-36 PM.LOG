@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=GPIO34 Pin=*-5
+Removed Pin From Net: NetName=GPIO32 Pin=*-7
+Removed Pin From Net: NetName=GPIO26 Pin=*-10
+Removed Pin From Net: NetName=GPIO27 Pin=*-11
+Removed Pin From Net: NetName=GPIO13 Pin=*-15
+Removed Pin From Net: NetName=Vin Pin=*-19
+Removed Pin From Net: NetName=GND Pin=*-32
+Removed Pin From Net: NetName=GPIO21 Pin=*-33
+Removed Pin From Net: NetName=GPIO22 Pin=*-36
+Removed Pin From Net: NetName=GND Pin=*-38
+Removed Member From Class: ClassName=fire_warning Member=*
+Added Component: Designator=U1(MODULE_ESP32-DEVKITC-32D)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "ESP32-DEVKITC-32D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "ESP32-DEVKITC-32D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKITC-32D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "MODULE_ESP32-DEVKITC-32D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/ESP32-DEVKITC-32D/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "ESP32-DEVKITC-32D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GPIO34 Pin=U1-5
+Added Pin To Net: NetName=GPIO32 Pin=U1-7
+Added Pin To Net: NetName=GPIO26 Pin=U1-10
+Added Pin To Net: NetName=GPIO27 Pin=U1-11
+Added Pin To Net: NetName=GPIO13 Pin=U1-15
+Added Pin To Net: NetName=Vin Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-20
+Added Pin To Net: NetName=GPIO22 Pin=U1-22
+Added Pin To Net: NetName=GPIO21 Pin=U1-25
+Added Pin To Net: NetName=GND Pin=U1-26
+Added Member To Class: ClassName=fire_warning Member=Component U1 Eval Board For Esp-Wroom-32 Check availability
+Added Room: Name=fire_warning

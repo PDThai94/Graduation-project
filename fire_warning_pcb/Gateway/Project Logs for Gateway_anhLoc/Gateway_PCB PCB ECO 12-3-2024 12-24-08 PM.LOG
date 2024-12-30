@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LG2 Pin=MOD1-29
+Removed Pin From Net: NetName=LR2 Pin=MOD1-31
+Added Pin To Net: NetName=LR2 Pin=MOD1-29
+Added Pin To Net: NetName=LG2 Pin=MOD1-31

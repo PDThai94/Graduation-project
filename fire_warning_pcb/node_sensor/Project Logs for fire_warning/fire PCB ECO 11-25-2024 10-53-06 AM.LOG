@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=MQ7_D0 Pin=U1-31
+Removed Pin From Net: NetName=MQ7_A0 Pin=U1-32
+Added Pin To Net: NetName=MQ7_A0 Pin=U1-31
+Added Pin To Net: NetName=MQ7_D0 Pin=U1-32
+Added Room: Name=fire_warning

@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=JDC NewDesignator=JDC1
+Added Component: Designator=CON1(Connector 2 Pin)
+Add component (AddParameter): Name = "Value"; Value = "Header 2"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetJDC_2 New Net Name=NetJDC1_2
+Added Pin To Net: NetName=+12V Pin=CON1-1
+Added Pin To Net: NetName=+12V Pin=CON1-2
+Added Pin To Net: NetName=+12V Pin=JDC1-1
+Added Pin To Net: NetName=+12V Pin=MOD1-1
+Added Net: Name=+12V
+Added Member To Class: ClassName=fire_warning Member=Component CON1 Connector 2Pin
+Added Member To Class: ClassName=fire_warning Member=Component J2 MQ7
+Added Member To Class: ClassName=fire_warning Member=Component J3 IR 
+Added Member To Class: ClassName=fire_warning Member=Component R1 Res
+Added Member To Class: ClassName=fire_warning Member=Component R2 Res
+Added Member To Class: ClassName=fire_warning Member=Component RL1 Module Relay 2 channel
+Added Room: Name=fire_warning
