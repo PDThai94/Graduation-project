@@ -6,7 +6,7 @@
 #include <WiFi.h>
 
 // Cấu hình Node
-#define NODE_ID 1  // ID của Node
+#define NODE_ID 2  // ID của Node
 
 // Cấu hình chân cảm biến và ngoại vi
 #define RELAY_IN1 27
